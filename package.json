@@ -22,7 +22,7 @@
     "gatsby-plugin-styled-components": "^4.10.0",
     "gatsby-remark-autolink-headers": "^4.8.0",
     "gatsby-remark-external-links": "^0.0.4",
-    "gatsby-remark-images": "^5.7.0",
+    "gatsby-remark-images": "^5.8.0",
     "gatsby-source-filesystem": "^3.11.0",
     "mdx-utils": "^0.2.0",
     "polished": "^4.1.3",
