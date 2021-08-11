@@ -12,7 +12,7 @@
     "change-case": "^4.1.2",
     "gatsby": "^3.11.0",
     "gatsby-plugin-catch-links": "^3.10.0",
-    "gatsby-plugin-google-analytics": "^3.10.0",
+    "gatsby-plugin-google-analytics": "^3.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
     "gatsby-plugin-mdx": "^2.11.0",
     "gatsby-plugin-offline": "^4.10.0",
