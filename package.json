@@ -57,7 +57,7 @@
     "test": "echo 'no tests found'"
   },
   "devDependencies": {
-    "firebase-tools": "^9.16.6",
+    "firebase-tools": "^9.18.0",
     "prettier": "^2.4.1"
   }
 }
