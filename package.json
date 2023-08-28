@@ -47,10 +47,10 @@
   "license": "UNLICENSED",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
     "clean": "gatsby clean",
     "deploy": "firebase deploy",
-    "dev": "gatsby develop -o",
+    "dev": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby develop -o ",
     "develop": "gatsby develop",
     "forestry:preview": "gatsby develop",
     "serve": "gatsby serve",
