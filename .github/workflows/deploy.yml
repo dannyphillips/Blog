@@ -18,7 +18,9 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-      - name: Deploy to Firebase
-        run: npm run deploy
+      - name: Create SA key JSON
+        run: echo $GOOGLE_APPLICATION_CREDENTIALS > "$HOME"/gcloud.json
         env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      - name: Deploy to Firebase
+        run: GOOGLE_APPLICATION_CREDENTIALS="$HOME"/gcloud.json npm run deploy
