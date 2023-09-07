@@ -34,7 +34,7 @@
     "react-helmet": "^6.1.0",
     "react-live": "^2.4.1",
     "react-palette": "^1.0.2",
-    "react-vertical-timeline-component": "^3.5.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "simple-icons": "^9.13.0",
     "styled-components": "^5.3.3"
   },
