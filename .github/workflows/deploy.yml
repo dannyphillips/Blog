@@ -21,5 +21,5 @@ jobs:
       - name: Deploy to Firebase
         run: npm run deploy
         env:
-          FIREBASE_TOKEN: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         
