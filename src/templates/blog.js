@@ -130,8 +130,8 @@ export const postQuery = graphql`
       timeToRead
       parent {
         ... on File {
+          birthTime
           mtime
-          birthtime
         }
       }
     }

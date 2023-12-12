@@ -182,7 +182,7 @@ export const projectQuery = graphql`
       parent {
         ... on File {
           mtime
-          birthtime
+          birthTime
         }
       }
     }
