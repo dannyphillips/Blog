@@ -13,9 +13,9 @@ jobs:
       - name: Checkout Repo
       - uses: actions/checkout@v3 
       - name: Install Dependencies
-        run: npm install
+      - run: npm install
       - name: Build
-        run: npm run build
+      - run: npm run build
       - name: Deploy
       - run: npm run deploy
       - uses: FirebaseExtended/action-hosting-deploy@v0
