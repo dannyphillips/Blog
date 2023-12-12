@@ -105,12 +105,12 @@ class Navigation extends React.Component {
             {/* <Link to="/experience" activeClassName="active">
               <NavButton>Experience</NavButton>
             </Link> */}
-            <Link to="/projects" activeClassName="active">
+            {/* <Link to="/projects" activeClassName="active">
               <NavButton>Projects</NavButton>
             </Link>
             <Link to="/blog" activeClassName="active">
               <NavButton>Blog</NavButton>
-            </Link>
+            </Link> */}
           </LinkContainer>
         </DesktopNav>
         <MobileNav>

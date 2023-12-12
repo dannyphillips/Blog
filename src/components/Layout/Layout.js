@@ -214,8 +214,7 @@ const Layout = ({ children, customSEO, home }) => {
         <Navigation id="header" home={home} />
         {children}
         <Footer home={home}>
-          <span>&copy; 2019 by Danny Phillips. All rights reserved.</span>
-          <span> [Last build: {buildTime}]</span>
+          <span>&copy; 2023 by Danny Phillips. All rights reserved.</span>
         </Footer>
       </Fragment>
     </ThemeProvider>
