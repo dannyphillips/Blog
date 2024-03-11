@@ -34,7 +34,7 @@
     "react-live": "^4.1.2",
     "react-palette": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "simple-icons": "^10.3.0",
+    "simple-icons": "^11.8.0",
     "styled-components": "^6.1.1"
   },
   "keywords": [
